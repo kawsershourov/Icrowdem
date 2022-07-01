@@ -1,0 +1,323 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(143 198 61);
+    outline: 1px solid slategrey;
+  }
+#header{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #666666;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(143 198 61);
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+
+    position: relative;
+    z-index: 1;
+
+
+}
+
+#banner::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 54, 65, 0.468);
+    z-index: -1;
+
+}
+
+.height {
+    min-height: 90vh;
+}
+
+#banner h1 {
+
+    color: #fff;
+
+    padding-bottom: 9px;
+
+    font-size: 42px;
+
+    font-weight: 500;
+}
+
+#banner h2 {
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 34px;
+
+    font-weight: 200;
+}
+
+.buttom {
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 144px;
+
+    border: 1px solid #99c50a;
+
+    transform: translateX(-50%);
+
+    border-radius: 5px;
+}
+
+.buttom a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 11px 21px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.buttom a:hover {
+    background-color: #99c50a;
+    color: #fff;
+
+}
+
+
+
+.work_icon {
+
+    text-align: center;
+}
+
+
+#work h1 {
+
+    color: #515151;
+
+    margin: 33px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#work p {
+
+    font-size: 16px;
+
+    text-align: center;
+
+    margin: 27px 0;
+    color: #515151;
+    font-weight: 400;
+}
+
+
+
+#Featured_Projects_content h1 {
+
+    font-size: 25px;
+
+    color: #515151;
+}
+
+#Featured_Projects_content p {
+
+    font-size: 18px;
+}
+
+
+
+.btn_b {
+
+    margin-top: 32px;
+}
+
+.btn_b a {
+
+    border: 1px solid #ddd9d9;
+
+    text-decoration: none;
+
+    color: #515151;
+
+    font-size: 14px;
+
+    padding: 11px 21px;
+
+    transition: all 0.4s ease-in-out;
+
+    border-radius: 11px;
+}
+
+
+.btn_b a:hover {
+    background-color: #99c50a;
+    color: #fff;
+
+}
+
+.Featured_Projects_img {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Featured_Projects_img img {
+
+    width: 100%;
+}
+
+.Featured_Projects_con {
+    background-color: #f9f9f9;
+    padding: 34px 20px;
+}
+
+.Featured_Projects_con h1 {
+
+    font-size: 22px;
+
+
+
+    color: #515151;
+}
+
+.Featured_Projects_con p {
+
+    font-size: 12px;
+
+    color: #515151;
+
+    margin-bottom: 50px;
+}
+
+.Featured_Projects_con ul {
+
+    display: flex;
+
+    list-style: none;
+
+    justify-content: space-between;
+
+    padding: 0;
+}
+
+.Featured_Projects_con ul li {
+    font-size: 13px;
+    color: #484848;
+}
+
+.see_ditils {
+
+    margin-left: 155px;
+}
+
+.see_ditils a {
+
+    text-decoration: none;
+
+    color: #515151;
+
+    font-size: 14px;
+
+    padding-bottom: 23px;
+}
+
+.see_ditils a i {
+
+    color: #add136;
+
+    margin-left: 4px;
+
+    font-size: 18px;
+}
+
+.Featured_Projects_btn {
+
+    position: absolute;
+
+    left: 67%;
+
+    top: 41%;
+}
+
+.Featured_Projects_btn a {
+
+    background: #26a6d1;
+
+    color: #fff;
+
+    padding: 3px 3px;
+
+    font-size: 13px;
+}
+
+.Featured_Projects_btn a:hover {
+
+    box-shadow: none;
+    color: #fff;
+}
+
+.footer img {
+
+    width: 100%;
+
+    margin-bottom: 24px;
+}
+
+.footer p {
+
+    text-align: center;
+
+    color: #515151;
+
+    text-transform: capitalize;
+}
+
+.toggler-icon{
+    color: rgb(3, 3, 3);
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-nav {
+       
+    align-items: inherit !important;
+}
